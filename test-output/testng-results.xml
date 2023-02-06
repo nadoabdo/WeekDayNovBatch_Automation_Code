@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-01T20:53:08 EST" name="Default suite" finished-at="2023-02-01T20:53:46 EST" duration-ms="38714">
+    <groups>
+    </groups>
+    <test started-at="2023-02-01T20:53:08 EST" name="Default test" finished-at="2023-02-01T20:53:46 EST" duration-ms="38714">
+      <class name="testng_automation_code_feb_1st_2023.Assignment">
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:08 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:12 EST" duration-ms="4650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="clickOnMyAccount()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:12 EST" name="clickOnMyAccount" finished-at="2023-02-01T20:53:12 EST" duration-ms="59" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[As per the assignment]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: As per the assignment
+at org.testng.Assert.fail(Assert.java:99)
+at testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount(Assignment.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:12 EST" name="tearDown" finished-at="2023-02-01T20:53:12 EST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:12 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:16 EST" duration-ms="3502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="loginFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:16 EST" name="loginFunctionality" finished-at="2023-02-01T20:53:17 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:17 EST" name="tearDown" finished-at="2023-02-01T20:53:18 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:18 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:21 EST" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:21 EST" name="logoutFunctionality" finished-at="2023-02-01T20:53:23 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount, testng_automation_code_feb_1st_2023.Assignment.loginFunctionality" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:23 EST" name="tearDown" finished-at="2023-02-01T20:53:23 EST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:23 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:27 EST" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:27 EST" name="logoutFunctionality" finished-at="2023-02-01T20:53:29 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount, testng_automation_code_feb_1st_2023.Assignment.loginFunctionality" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:29 EST" name="tearDown" finished-at="2023-02-01T20:53:29 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:29 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:33 EST" duration-ms="3460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:33 EST" name="logoutFunctionality" finished-at="2023-02-01T20:53:35 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount, testng_automation_code_feb_1st_2023.Assignment.loginFunctionality" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:35 EST" name="tearDown" finished-at="2023-02-01T20:53:35 EST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:35 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:38 EST" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:38 EST" name="logoutFunctionality" finished-at="2023-02-01T20:53:40 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount, testng_automation_code_feb_1st_2023.Assignment.loginFunctionality" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:40 EST" name="tearDown" finished-at="2023-02-01T20:53:41 EST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="openTutorialsNinjaWebsite()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:41 EST" name="openTutorialsNinjaWebsite" finished-at="2023-02-01T20:53:44 EST" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTutorialsNinjaWebsite -->
+        <test-method signature="logoutFunctionality()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:44 EST" name="logoutFunctionality" finished-at="2023-02-01T20:53:46 EST" depends-on-methods="testng_automation_code_feb_1st_2023.Assignment.clickOnMyAccount, testng_automation_code_feb_1st_2023.Assignment.loginFunctionality" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng_automation_code_feb_1st_2023.Assignment@27462a88]" started-at="2023-02-01T20:53:46 EST" name="tearDown" finished-at="2023-02-01T20:53:46 EST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng_automation_code_feb_1st_2023.Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
